@@ -1,0 +1,570 @@
+{
+  "simples__plain": {
+    "params": 105866,
+    "train_time_s": 672.4348518848419,
+    "consistency": {
+      "translated": 0.17589999735355377,
+      "rotated": 0.9491999745368958,
+      "noisy": 0.9757000207901001,
+      "contrast": 0.9993000030517578,
+      "combined": 0.47600001096725464
+    },
+    "conv1": {
+      "equivariance_rel_error": 0.0,
+      "invariance_rel_change": 1.2419860363006592
+    },
+    "top_confusions": {
+      "rotated": [
+        {
+          "real": 9,
+          "pred": 4,
+          "count": 61
+        },
+        {
+          "real": 7,
+          "pred": 2,
+          "count": 46
+        },
+        {
+          "real": 2,
+          "pred": 7,
+          "count": 36
+        },
+        {
+          "real": 8,
+          "pred": 4,
+          "count": 29
+        },
+        {
+          "real": 6,
+          "pred": 0,
+          "count": 19
+        }
+      ],
+      "combined": [
+        {
+          "real": 6,
+          "pred": 1,
+          "count": 476
+        },
+        {
+          "real": 0,
+          "pred": 8,
+          "count": 376
+        },
+        {
+          "real": 9,
+          "pred": 3,
+          "count": 346
+        },
+        {
+          "real": 1,
+          "pred": 7,
+          "count": 345
+        },
+        {
+          "real": 8,
+          "pred": 5,
+          "count": 240
+        }
+      ]
+    }
+  },
+  "simples__augmented": {
+    "params": 105866,
+    "train_time_s": 603.4499485492706,
+    "consistency": {
+      "translated": 0.960099995136261,
+      "rotated": 0.9523000121116638,
+      "noisy": 0.9659000039100647,
+      "contrast": 0.9983000159263611,
+      "combined": 0.954800009727478
+    },
+    "conv1": {
+      "equivariance_rel_error": 0.0,
+      "invariance_rel_change": 1.2493358850479126
+    },
+    "top_confusions": {
+      "rotated": [
+        {
+          "real": 9,
+          "pred": 4,
+          "count": 55
+        },
+        {
+          "real": 2,
+          "pred": 7,
+          "count": 37
+        },
+        {
+          "real": 1,
+          "pred": 8,
+          "count": 33
+        },
+        {
+          "real": 7,
+          "pred": 2,
+          "count": 27
+        },
+        {
+          "real": 9,
+          "pred": 8,
+          "count": 22
+        }
+      ],
+      "combined": [
+        {
+          "real": 6,
+          "pred": 0,
+          "count": 37
+        },
+        {
+          "real": 2,
+          "pred": 7,
+          "count": 35
+        },
+        {
+          "real": 4,
+          "pred": 9,
+          "count": 29
+        },
+        {
+          "real": 4,
+          "pred": 2,
+          "count": 24
+        },
+        {
+          "real": 9,
+          "pred": 0,
+          "count": 19
+        }
+      ]
+    }
+  },
+  "profunda__plain": {
+    "params": 60874,
+    "train_time_s": 306.6542966365814,
+    "consistency": {
+      "translated": 0.3610000014305115,
+      "rotated": 0.9323999881744385,
+      "noisy": 0.9693999886512756,
+      "contrast": 0.9987999796867371,
+      "combined": 0.5382999777793884
+    },
+    "conv1": {
+      "equivariance_rel_error": 0.0,
+      "invariance_rel_change": 1.2308100461959839
+    },
+    "top_confusions": {
+      "rotated": [
+        {
+          "real": 4,
+          "pred": 2,
+          "count": 170
+        },
+        {
+          "real": 7,
+          "pred": 2,
+          "count": 99
+        },
+        {
+          "real": 4,
+          "pred": 8,
+          "count": 72
+        },
+        {
+          "real": 4,
+          "pred": 9,
+          "count": 25
+        },
+        {
+          "real": 7,
+          "pred": 3,
+          "count": 23
+        }
+      ],
+      "combined": [
+        {
+          "real": 4,
+          "pred": 2,
+          "count": 516
+        },
+        {
+          "real": 1,
+          "pred": 7,
+          "count": 473
+        },
+        {
+          "real": 9,
+          "pred": 6,
+          "count": 322
+        },
+        {
+          "real": 8,
+          "pred": 3,
+          "count": 284
+        },
+        {
+          "real": 6,
+          "pred": 1,
+          "count": 256
+        }
+      ]
+    }
+  },
+  "profunda__augmented": {
+    "params": 60874,
+    "train_time_s": 479.6410987377167,
+    "consistency": {
+      "translated": 0.964900016784668,
+      "rotated": 0.9645000100135803,
+      "noisy": 0.9764999747276306,
+      "contrast": 0.9993000030517578,
+      "combined": 0.9657999873161316
+    },
+    "conv1": {
+      "equivariance_rel_error": 0.0,
+      "invariance_rel_change": 1.2405245304107666
+    },
+    "top_confusions": {
+      "rotated": [
+        {
+          "real": 2,
+          "pred": 7,
+          "count": 52
+        },
+        {
+          "real": 4,
+          "pred": 2,
+          "count": 25
+        },
+        {
+          "real": 7,
+          "pred": 2,
+          "count": 22
+        },
+        {
+          "real": 9,
+          "pred": 4,
+          "count": 16
+        },
+        {
+          "real": 9,
+          "pred": 2,
+          "count": 16
+        }
+      ],
+      "combined": [
+        {
+          "real": 2,
+          "pred": 7,
+          "count": 45
+        },
+        {
+          "real": 5,
+          "pred": 3,
+          "count": 21
+        },
+        {
+          "real": 5,
+          "pred": 6,
+          "count": 18
+        },
+        {
+          "real": 9,
+          "pred": 4,
+          "count": 16
+        },
+        {
+          "real": 8,
+          "pred": 4,
+          "count": 14
+        }
+      ]
+    }
+  },
+  "dropout__plain": {
+    "params": 105866,
+    "train_time_s": 240.5376296043396,
+    "consistency": {
+      "translated": 0.18950000405311584,
+      "rotated": 0.9442999958992004,
+      "noisy": 0.9822999835014343,
+      "contrast": 0.9990000128746033,
+      "combined": 0.46050000190734863
+    },
+    "conv1": {
+      "equivariance_rel_error": 0.0,
+      "invariance_rel_change": 1.2400522232055664
+    },
+    "top_confusions": {
+      "rotated": [
+        {
+          "real": 9,
+          "pred": 4,
+          "count": 40
+        },
+        {
+          "real": 7,
+          "pred": 9,
+          "count": 40
+        },
+        {
+          "real": 2,
+          "pred": 7,
+          "count": 33
+        },
+        {
+          "real": 8,
+          "pred": 4,
+          "count": 31
+        },
+        {
+          "real": 7,
+          "pred": 2,
+          "count": 31
+        }
+      ],
+      "combined": [
+        {
+          "real": 6,
+          "pred": 1,
+          "count": 614
+        },
+        {
+          "real": 1,
+          "pred": 4,
+          "count": 541
+        },
+        {
+          "real": 1,
+          "pred": 7,
+          "count": 459
+        },
+        {
+          "real": 4,
+          "pred": 2,
+          "count": 289
+        },
+        {
+          "real": 0,
+          "pred": 8,
+          "count": 280
+        }
+      ]
+    }
+  },
+  "dropout__augmented": {
+    "params": 105866,
+    "train_time_s": 361.1860284805298,
+    "consistency": {
+      "translated": 0.9383999705314636,
+      "rotated": 0.9434999823570251,
+      "noisy": 0.9675999879837036,
+      "contrast": 0.9979000091552734,
+      "combined": 0.9363999962806702
+    },
+    "conv1": {
+      "equivariance_rel_error": 0.0,
+      "invariance_rel_change": 1.2531760931015015
+    },
+    "top_confusions": {
+      "rotated": [
+        {
+          "real": 2,
+          "pred": 7,
+          "count": 63
+        },
+        {
+          "real": 9,
+          "pred": 4,
+          "count": 62
+        },
+        {
+          "real": 8,
+          "pred": 6,
+          "count": 57
+        },
+        {
+          "real": 3,
+          "pred": 7,
+          "count": 47
+        },
+        {
+          "real": 8,
+          "pred": 4,
+          "count": 37
+        }
+      ],
+      "combined": [
+        {
+          "real": 9,
+          "pred": 4,
+          "count": 73
+        },
+        {
+          "real": 5,
+          "pred": 6,
+          "count": 55
+        },
+        {
+          "real": 2,
+          "pred": 7,
+          "count": 51
+        },
+        {
+          "real": 8,
+          "pred": 4,
+          "count": 50
+        },
+        {
+          "real": 8,
+          "pred": 6,
+          "count": 40
+        }
+      ]
+    }
+  },
+  "sem_pooling__plain": {
+    "params": 1611146,
+    "train_time_s": 1021.1863362789154,
+    "consistency": {
+      "translated": 0.17319999635219574,
+      "rotated": 0.9322999715805054,
+      "noisy": 0.9715999960899353,
+      "contrast": 0.9987999796867371,
+      "combined": 0.3912000060081482
+    },
+    "conv1": {
+      "equivariance_rel_error": 0.0,
+      "invariance_rel_change": 1.2507606744766235
+    },
+    "top_confusions": {
+      "rotated": [
+        {
+          "real": 2,
+          "pred": 7,
+          "count": 79
+        },
+        {
+          "real": 7,
+          "pred": 9,
+          "count": 62
+        },
+        {
+          "real": 9,
+          "pred": 4,
+          "count": 37
+        },
+        {
+          "real": 7,
+          "pred": 2,
+          "count": 34
+        },
+        {
+          "real": 8,
+          "pred": 4,
+          "count": 31
+        }
+      ],
+      "combined": [
+        {
+          "real": 1,
+          "pred": 7,
+          "count": 559
+        },
+        {
+          "real": 6,
+          "pred": 1,
+          "count": 401
+        },
+        {
+          "real": 1,
+          "pred": 4,
+          "count": 345
+        },
+        {
+          "real": 8,
+          "pred": 9,
+          "count": 340
+        },
+        {
+          "real": 0,
+          "pred": 8,
+          "count": 291
+        }
+      ]
+    }
+  },
+  "sem_pooling__augmented": {
+    "params": 1611146,
+    "train_time_s": 2197.5072224140167,
+    "consistency": {
+      "translated": 0.9308000206947327,
+      "rotated": 0.9490000009536743,
+      "noisy": 0.9715999960899353,
+      "contrast": 0.9976999759674072,
+      "combined": 0.9455999732017517
+    },
+    "conv1": {
+      "equivariance_rel_error": 0.0,
+      "invariance_rel_change": 1.251549482345581
+    },
+    "top_confusions": {
+      "rotated": [
+        {
+          "real": 2,
+          "pred": 7,
+          "count": 37
+        },
+        {
+          "real": 8,
+          "pred": 4,
+          "count": 34
+        },
+        {
+          "real": 9,
+          "pred": 4,
+          "count": 28
+        },
+        {
+          "real": 8,
+          "pred": 6,
+          "count": 26
+        },
+        {
+          "real": 3,
+          "pred": 5,
+          "count": 24
+        }
+      ],
+      "combined": [
+        {
+          "real": 9,
+          "pred": 4,
+          "count": 51
+        },
+        {
+          "real": 7,
+          "pred": 9,
+          "count": 34
+        },
+        {
+          "real": 8,
+          "pred": 4,
+          "count": 32
+        },
+        {
+          "real": 2,
+          "pred": 7,
+          "count": 31
+        },
+        {
+          "real": 8,
+          "pred": 9,
+          "count": 23
+        }
+      ]
+    }
+  }
+}

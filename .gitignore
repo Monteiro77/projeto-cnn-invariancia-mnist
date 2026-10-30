@@ -1,0 +1,10 @@
+# Ambiente virtual e cache do Python
+.venv/
+__pycache__/
+*.pyc
+
+# Dataset MNIST (baixado automaticamente pelo torchvision)
+data/
+
+# Pesos treinados (regenerados por experimentos.py)
+resultados/modelos/

@@ -1,0 +1,77 @@
+
+=== CNN simples | sem aug. | 105,866 parâmetros ===
+  época 01 | loss treino 0.2667 | acc treino 0.9224 | loss val 0.0859 | acc val 0.9740 | 205s
+  época 02 | loss treino 0.0679 | acc treino 0.9791 | loss val 0.0680 | acc val 0.9792 | 148s
+  época 03 | loss treino 0.0482 | acc treino 0.9849 | loss val 0.0505 | acc val 0.9842 | 83s
+  época 04 | loss treino 0.0368 | acc treino 0.9888 | loss val 0.0534 | acc val 0.9838 | 138s
+  época 05 | loss treino 0.0302 | acc treino 0.9905 | loss val 0.0465 | acc val 0.9856 | 68s
+  teste: Original 98.81% | Deslocado 17.58% | Rotacionado 94.58% | Ruído 97.00% | Contraste 98.80% | Combinado 47.59%
+
+=== CNN simples | com aug. | 105,866 parâmetros ===
+  época 01 | loss treino 0.6013 | acc treino 0.8048 | loss val 0.1305 | acc val 0.9618 | 140s
+  época 02 | loss treino 0.2028 | acc treino 0.9368 | loss val 0.1117 | acc val 0.9650 | 113s
+  época 03 | loss treino 0.1508 | acc treino 0.9528 | loss val 0.0809 | acc val 0.9750 | 132s
+  época 04 | loss treino 0.1285 | acc treino 0.9597 | loss val 0.0547 | acc val 0.9832 | 94s
+  época 05 | loss treino 0.1130 | acc treino 0.9658 | loss val 0.0519 | acc val 0.9840 | 93s
+  teste: Original 98.46% | Deslocado 95.74% | Rotacionado 94.82% | Ruído 96.12% | Contraste 98.52% | Combinado 95.17%
+
+=== CNN profunda | sem aug. | 60,874 parâmetros ===
+  época 01 | loss treino 0.3156 | acc treino 0.9031 | loss val 0.1368 | acc val 0.9536 | 75s
+  época 02 | loss treino 0.0718 | acc treino 0.9777 | loss val 0.0615 | acc val 0.9800 | 86s
+  época 03 | loss treino 0.0504 | acc treino 0.9841 | loss val 0.0486 | acc val 0.9822 | 39s
+  época 04 | loss treino 0.0388 | acc treino 0.9877 | loss val 0.0394 | acc val 0.9884 | 38s
+  época 05 | loss treino 0.0320 | acc treino 0.9899 | loss val 0.0443 | acc val 0.9868 | 43s
+  teste: Original 98.80% | Deslocado 35.98% | Rotacionado 92.99% | Ruído 96.12% | Contraste 98.74% | Combinado 53.59%
+
+=== CNN profunda | com aug. | 60,874 parâmetros ===
+  época 01 | loss treino 0.6174 | acc treino 0.8003 | loss val 0.1573 | acc val 0.9546 | 51s
+  época 02 | loss treino 0.2046 | acc treino 0.9376 | loss val 0.0798 | acc val 0.9742 | 60s
+  época 03 | loss treino 0.1410 | acc treino 0.9559 | loss val 0.0755 | acc val 0.9764 | 139s
+  época 04 | loss treino 0.1164 | acc treino 0.9639 | loss val 0.0581 | acc val 0.9808 | 128s
+  época 05 | loss treino 0.0979 | acc treino 0.9695 | loss val 0.0489 | acc val 0.9844 | 75s
+  teste: Original 98.68% | Deslocado 96.36% | Rotacionado 96.13% | Ruído 97.31% | Contraste 98.73% | Combinado 96.43%
+
+=== CNN + dropout | sem aug. | 105,866 parâmetros ===
+  época 01 | loss treino 0.4277 | acc treino 0.8674 | loss val 0.0986 | acc val 0.9670 | 30s
+  época 02 | loss treino 0.1500 | acc treino 0.9552 | loss val 0.0668 | acc val 0.9796 | 35s
+  época 03 | loss treino 0.1172 | acc treino 0.9655 | loss val 0.0507 | acc val 0.9838 | 37s
+  época 04 | loss treino 0.0978 | acc treino 0.9712 | loss val 0.0425 | acc val 0.9872 | 63s
+  época 05 | loss treino 0.0865 | acc treino 0.9739 | loss val 0.0433 | acc val 0.9886 | 52s
+  teste: Original 98.80% | Deslocado 19.04% | Rotacionado 94.28% | Ruído 97.82% | Contraste 98.80% | Combinado 46.11%
+
+=== CNN + dropout | com aug. | 105,866 parâmetros ===
+  época 01 | loss treino 0.9403 | acc treino 0.6860 | loss val 0.1619 | acc val 0.9514 | 69s
+  época 02 | loss treino 0.4545 | acc treino 0.8593 | loss val 0.1084 | acc val 0.9688 | 77s
+  época 03 | loss treino 0.3567 | acc treino 0.8899 | loss val 0.0828 | acc val 0.9744 | 81s
+  época 04 | loss treino 0.3108 | acc treino 0.9063 | loss val 0.0714 | acc val 0.9800 | 50s
+  época 05 | loss treino 0.2753 | acc treino 0.9163 | loss val 0.0773 | acc val 0.9780 | 58s
+  teste: Original 97.92% | Deslocado 93.51% | Rotacionado 93.70% | Ruído 96.99% | Contraste 98.03% | Combinado 93.55%
+
+=== CNN sem pooling | sem aug. | 1,611,146 parâmetros ===
+  época 01 | loss treino 0.1930 | acc treino 0.9421 | loss val 0.0944 | acc val 0.9688 | 81s
+  época 02 | loss treino 0.0548 | acc treino 0.9829 | loss val 0.0560 | acc val 0.9826 | 117s
+  época 03 | loss treino 0.0316 | acc treino 0.9898 | loss val 0.0497 | acc val 0.9848 | 525s
+  época 04 | loss treino 0.0212 | acc treino 0.9934 | loss val 0.0578 | acc val 0.9846 | 102s
+  época 05 | loss treino 0.0152 | acc treino 0.9954 | loss val 0.0365 | acc val 0.9880 | 140s
+  teste: Original 98.90% | Deslocado 17.25% | Rotacionado 93.00% | Ruído 96.82% | Contraste 98.82% | Combinado 39.13%
+
+=== CNN sem pooling | com aug. | 1,611,146 parâmetros ===
+  época 01 | loss treino 0.5915 | acc treino 0.8096 | loss val 0.1508 | acc val 0.9530 | 2000s
+  época 02 | loss treino 0.2308 | acc treino 0.9296 | loss val 0.1168 | acc val 0.9646 | 61s
+  época 03 | loss treino 0.1875 | acc treino 0.9444 | loss val 0.0848 | acc val 0.9750 | 40s
+  época 04 | loss treino 0.1594 | acc treino 0.9518 | loss val 0.0807 | acc val 0.9748 | 43s
+  época 05 | loss treino 0.1391 | acc treino 0.9578 | loss val 0.0757 | acc val 0.9764 | 38s
+  teste: Original 97.63% | Deslocado 93.22% | Rotacionado 94.88% | Ruído 96.97% | Contraste 97.69% | Combinado 94.99%
+
+| Modelo | Treino | Original | Deslocado | Rotacionado | Ruído | Contraste | Combinado |
+|---|---|---|---|---|---|---|---|
+| CNN simples | sem aug. | 98.81% | 17.58% | 94.58% | 97.00% | 98.80% | 47.59% |
+| CNN simples | com aug. | 98.46% | 95.74% | 94.82% | 96.12% | 98.52% | 95.17% |
+| CNN profunda | sem aug. | 98.80% | 35.98% | 92.99% | 96.12% | 98.74% | 53.59% |
+| CNN profunda | com aug. | 98.68% | 96.36% | 96.13% | 97.31% | 98.73% | 96.43% |
+| CNN + dropout | sem aug. | 98.80% | 19.04% | 94.28% | 97.82% | 98.80% | 46.11% |
+| CNN + dropout | com aug. | 97.92% | 93.51% | 93.70% | 96.99% | 98.03% | 93.55% |
+| CNN sem pooling | sem aug. | 98.90% | 17.25% | 93.00% | 96.82% | 98.82% | 39.13% |
+| CNN sem pooling | com aug. | 97.63% | 93.22% | 94.88% | 96.97% | 97.69% | 94.99% |
+
+Resultados salvos em C:\Users\monte\Downloads\projeto_cnn_invariancia_mnist\resultados
