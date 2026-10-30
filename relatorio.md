@@ -1,6 +1,16 @@
 # As CNNs são realmente invariantes?
 ### Um estudo experimental com transformações em imagens usando PyTorch e MNIST
 
+**Integrantes:**
+
+| Nome | RM |
+|---|---|
+| Vinicius Monteiro Araújo | 555088 |
+| Guilherme Almeida | 555180 |
+| Rafael Duarte de Freitas | 558644 |
+| Rafael Gaspar Bragança Martins | 557228 |
+| Luiz Gustavo da Silva | 558358 |
+
 ---
 
 ## 1. Introdução
